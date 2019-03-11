@@ -9,7 +9,7 @@ while True:
     try:
         num = eval(input("输入你猜的数字: "))   
         if num > 100 or num < 1:
-            raise ValueError("输入值错误(不规范)")    # 抛出异常 
+            raise ValueError("输入值错误(不规范)输入值(1-100)")    # 抛出异常
     except ValueError as e:
         print(e)                                     # 输出返回的异常信息
         continue
