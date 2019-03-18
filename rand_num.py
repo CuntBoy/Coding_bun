@@ -22,7 +22,6 @@ while True:
         continue 
     else:
         print("太小了,大一点,重新输入:")
-        continue
     
 print("系统随机数是: {}".format(rand_num))
         
