@@ -13,8 +13,9 @@ def main():
 	Buy_Products.print_products()
 	# 购物过程 
 	Buy_Products.buy_product(main.user_balance)
-	# 退出
+        
 
+# 真正执行的代码, 判断是否在当前函数,若是不在 不执行
 if __name__=="__main__":
 	main()
 
