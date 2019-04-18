@@ -45,9 +45,8 @@ def usr_login():
                 raise KeyError("用户不存在，请注册")
         except Exception as e:
             print(e)
-
-        # 转到注册账户的页面 
-        # 此处未作要求 不实现
+            # 转到注册账户的页面 
+            # 此处未作要求 不实现
     print("欢迎来到, 冉氏购物商城,祝您购物愉快!")
 
 
