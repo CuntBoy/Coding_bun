@@ -1,9 +1,9 @@
 # coding:utf-8
 
 users = [
-    {"id": "1234569", "username": "潘圆明", "password": "12345678", },
-    {"id": "1234567", "username": "陈磊宇", "password": "12345678", },
-    {"id": "1234568", "username": "张大扬", "password": "12345678", },
+    {"id": "1234569", "username": "小米", "password": "12345678", },
+    {"id": "1234567", "username": "小明", "password": "12345678", },
+    {"id": "1234568", "username": "小张", "password": "12345678", },
 ]
 
 user_id_lists = list()
